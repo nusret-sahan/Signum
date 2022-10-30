@@ -21,7 +21,7 @@ class signumTest {
 		signumClass.signum(val);
 	}
 }
-class signumClass {
+class NumberUtil {
 	public static int signum(int val)
 	{
 		if (val < 0) {
